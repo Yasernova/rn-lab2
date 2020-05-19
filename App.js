@@ -1,11 +1,9 @@
-import React from 'react';
-import { StatusBar } from 'react-native';
-import App from './routes/navigator';
-import { PostsProvider } from './contexts/posts';
+import React from 'react'
+import { View, Text } from 'react-native';
+import RootNavigator from './navigation';
 
-export default () => (
-  <PostsProvider>
-    <StatusBar barStyle="light-content" />
-    <App />
-  </PostsProvider>
-);
+const App = () => {
+  return <RootNavigator />;
+}
+
+export default App

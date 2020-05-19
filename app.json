@@ -1,12 +1,11 @@
 {
   "expo": {
-    "name": "rn-lab2",
-    "slug": "rn-lab2",
-    "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "name": "osa-mans",
+    "slug": "osa-mans",
     "platforms": [
       "ios",
-      "android"
+      "android",
+      "web"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
